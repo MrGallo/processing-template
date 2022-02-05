@@ -7,11 +7,14 @@ public class Sketch extends PApplet {
     }
 
     public void setup() {
-        background(0);
+
     }
 
     public void draw() {
-        fill(255);
-        ellipse(mouseX, mouseY, 25, 25);
+        background(200, 0, 0);
+
+        fill(255, 200, 50);
+        noStroke();
+        ellipse(mouseX, mouseY, 50, 50);
     }
 }
